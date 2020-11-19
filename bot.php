@@ -540,6 +540,9 @@ if(!is_null($events)){
                                     'Cooking Steps',// ข้อความแสดงในปุ่ม
                                     'https://liff.line.me/1654945197-be2v6lWG'
                                 ),      
+                                new UriTemplateActionBuilder(
+                                    'กีดกัน (Skyline) OST.แปลรักฉันด้วยใจเธอ - Billkin [Official MV]',// ข้อความแสดงในปุ่ม
+                                    'https://www.youtube.com/watch?v=hJeEOzEZstU'
                             );
                             $actionBuilder2 = array(
                                 new UriTemplateActionBuilder(
@@ -629,7 +632,12 @@ if(!is_null($events)){
                                             'ทำความรู้จัก ETL',
                                             'https://bcplineoa.bangchak.co.th/powerbi-club/uploadimage/c5.png',
                                             $actionBuilder5
-                                        ),                                         
+                                        ), 
+                                        new CarouselColumnTemplateBuilder(
+                                            'EP.06',
+                                            'DAX ตอนที่ 1',
+                                            'https://bcplineoa.bangchak.co.th/powerbi-club/uploadimage/c1.png',
+                                            $actionBuilder6                                        
                                     )
                                 )
                             );
