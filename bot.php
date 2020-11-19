@@ -540,9 +540,6 @@ if(!is_null($events)){
                                     'Cooking Steps',// ข้อความแสดงในปุ่ม
                                     'https://liff.line.me/1654945197-be2v6lWG'
                                 ),      
-                                new UriTemplateActionBuilder(
-                                    'กีดกัน (Skyline) OST.แปลรักฉันด้วยใจเธอ - Billkin [Official MV]',// ข้อความแสดงในปุ่ม
-                                    'https://www.youtube.com/watch?v=hJeEOzEZstU'
                             );
                             $actionBuilder2 = array(
                                 new UriTemplateActionBuilder(
@@ -600,6 +597,20 @@ if(!is_null($events)){
                                     'https://liff.line.me/1654945197-be2v6lWG'
                                 ),     
                             );
+                            $actionBuilderุ6 = array(
+                                new UriTemplateActionBuilder(
+                                    'ทำความรู้จัก Power BI', // ข้อความแสดงในปุ่ม
+                                    'https://youtu.be/yKTSLffVGbk'
+                                ),
+                                new UriTemplateActionBuilder(
+                                    'ประเภทของ Dashboard',// ข้อความแสดงในปุ่ม
+                                    'https://liff.line.me/1654945197-dKgbrZlR'
+                                ),
+                                new UriTemplateActionBuilder(
+                                    'Cooking Steps',// ข้อความแสดงในปุ่ม
+                                    'https://liff.line.me/1654945197-be2v6lWG'
+                                ),
+                            );     
                             $replyData = new TemplateMessageBuilder('Carousel',
                                 new CarouselTemplateBuilder(
                                     array(
