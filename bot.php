@@ -595,20 +595,6 @@ if(!is_null($events)){
                                 new UriTemplateActionBuilder(
                                     '- Coming Soon -', // ข้อความแสดงในปุ่ม
                                     'https://liff.line.me/1654945197-be2v6lWG'
-                                ),     
-                            );
-                            $actionBuilderุ6 = array(
-                                new UriTemplateActionBuilder(
-                                    'ทำความรู้จัก Power BI', // ข้อความแสดงในปุ่ม
-                                    'https://youtu.be/yKTSLffVGbk'
-                                ),
-                                new UriTemplateActionBuilder(
-                                    'ประเภทของ Dashboard',// ข้อความแสดงในปุ่ม
-                                    'https://liff.line.me/1654945197-dKgbrZlR'
-                                ),
-                                new UriTemplateActionBuilder(
-                                    'Cooking Steps',// ข้อความแสดงในปุ่ม
-                                    'https://liff.line.me/1654945197-be2v6lWG'
                                 ),
                             );     
                             $replyData = new TemplateMessageBuilder('Carousel',
